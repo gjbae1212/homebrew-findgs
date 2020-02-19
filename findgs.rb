@@ -2,14 +2,14 @@
 class Findgs < Formula
   desc "findgs can search your starred repositories in the Github which matched searching text from title, description, topic, and README."
   homepage ""
-  version "1.0.0"
+  version "1.0.1"
 
   if OS.mac?
-    url "https://github.com/gjbae1212/findgs/releases/download/v1.0.0/findgs_1.0.0_Darwin_x86_64.tar.gz"
-    sha256 "7e2a980f92830f49fb3fffda5d50084d0702af58cbb7fab950124425ee197238"
+    url "https://github.com/gjbae1212/findgs/releases/download/v1.0.1/findgs_1.0.1_Darwin_x86_64.tar.gz"
+    sha256 "64a5237edb366a45ca608a928bf1a7cea0457131cdaf525bce545e3b8f5c2c23"
   elsif OS.linux?
-    url "https://github.com/gjbae1212/findgs/releases/download/v1.0.0/findgs_1.0.0_Linux_x86_64.tar.gz"
-    sha256 "939e2463c61608d98c932e5a5f8eef7318da5050411b171ce010215afcae6277"
+    url "https://github.com/gjbae1212/findgs/releases/download/v1.0.1/findgs_1.0.1_Linux_x86_64.tar.gz"
+    sha256 "5f947eadde1bb83e70b5757a97f8f079fd7e2a50159333bf03a29f1e5ca174ab"
   end
 
   def install
